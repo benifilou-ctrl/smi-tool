@@ -180,19 +180,18 @@
 </style>
 </head>
 <body>
-<div id="smi-membership-banner" style="background:#fff3cd;color:#664d03;border:1px solid #ffe69c;border-radius:8px;padding:10px 14px;margin:0 0 12px;font-size:13px;">Moeglicher SMI-Mitgliederwechsel erkannt (geprueft 6.10.2026, 08:30:31). Neu: ROP | Entfernt: ROG, SDZ.</div>
 
 <div class="masthead">
   <div class="masthead-row">
     <div>
       <h1>SMI Tagesmonitor</h1>
-      <div class="sub">Swiss Market Index — 20 Titel · Kursstand Dienstag, 06.10.2026, 17:31 Uhr, automatisch aktualisiert</div>
+      <div class="sub">Swiss Market Index — 20 Titel · Kursstand Mittwoch, 07.10.2026, 09:14 Uhr, automatisch aktualisiert</div>
     </div>
     <div class="index-box">
       <div class="lbl">SMI</div>
-      <div class="index-val">13'788.93</div>
-      <div class="index-chg pos">+85.40 Pkt · +0.62 %</div>
-      <div class="fx-line" style="font-size:12px;color:var(--grey);margin-top:6px;">EUR/CHF 0.9353 <span class="pos">+0.29 %</span> · USD/CHF 0.8333 <span class="pos">+0.23 %</span></div>
+      <div class="index-val">13'786.30</div>
+      <div class="index-chg neu">−2.63 Pkt · −0.02 %</div>
+      <div class="fx-line" style="font-size:12px;color:var(--grey);margin-top:6px;">EUR/CHF 0.9336 <span class="neg">−0.34 %</span> · USD/CHF 0.8324 <span class="neu">−0.01 %</span></div>
     </div>
   </div>
 </div>
@@ -311,7 +310,7 @@
 
   <div class="foot">
     <p><strong>Wie das Risiko eingeschätzt wird:</strong> Kombination aus heutiger Handelsspanne (Hoch/Tief), Grösse und Richtungswechseln der 3-/6-/12-Monats-Bewegung sowie Branchencharakter (z.B. Banken und Vermögensverwalter grundsätzlich schwankungsanfälliger als Nahrungsmittel oder Pharma). Es ist eine grobe Einordnung, kein Beta-Wert einer Bank.</p>
-    <p><strong>Das ist keine Anlageberatung.</strong> Die Zahlen sind eine Momentaufnahme von Google Finance, Kursstand 06.10.2026, 17:31 Uhr, leicht verzögert, keine Live-Daten. Ein hoher Tagesgewinn oder eine gute 1-Jahres-Performance sagt nichts über das künftige Risiko aus. Für Entscheide: eigene Recherche oder eine zugelassene Beraterin/einen zugelassenen Berater beiziehen.</p>
+    <p><strong>Das ist keine Anlageberatung.</strong> Die Zahlen sind eine Momentaufnahme von Google Finance, Kursstand 07.10.2026, 09:14 Uhr, leicht verzögert, keine Live-Daten. Ein hoher Tagesgewinn oder eine gute 1-Jahres-Performance sagt nichts über das künftige Risiko aus. Für Entscheide: eigene Recherche oder eine zugelassene Beraterin/einen zugelassenen Berater beiziehen.</p>
     <p><strong>Makro-Spalte:</strong> zeigt pro Titel den plausibelsten aktuellen Einflussfaktor von aussen (Zölle, Franken, Zinsen, Geopolitik) — eine Einordnung, kein gemessener Wert, und nicht abschliessend.</p>
     <p>Quelle Kurse und Wechselkurse: Google Finance. Weitere Quellen: finanzen.ch, cash.ch, SIX Group (Index-Mitteilung vom 08.07.2026), SECO/Swissmem (US-Zölle), UBS-Ausblick vom 10.09.2026, WEF Global Risks Report 2026. Der genaue Ausgang der Fed-Sitzung vom 16.09.2026 war nicht abschliessend zu bestätigen.</p>
   </div>
@@ -322,26 +321,26 @@
 <!-- NEWS:END -->
 <script>
 const data = [
-  {name:"Roche",ticker:"ROG",sector:"Pharma",risk:"low",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:372,date:"Sommer 2026",range:"349–434.50",rating:"8 Kauf / 7 Halten / 1 Verkauf (16 Analysten)",src:"cash.ch"},price:349.8,chg:0,m3:3.03,m6:12.37,y1:21.29},
-  {name:"Novartis",ticker:"NOVN",sector:"Pharma",risk:"low",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:128.42,date:"31.07.2026",range:"95.95–150.69",rating:"50% Kauf / 41% Halten / 9% Verkauf (27 Anal.)",src:"aktien.guide"},price:117.18,chg:0,m3:-7.59,m6:-2.19,y1:10.76},
-  {name:"Nestlé",ticker:"NESN",sector:"Nahrungsmittel",risk:"mid",note:"Sondersituation: Russland-Geschäft",macro:"Russland-Exit, Franken-Stärke",an:{target:86.7,date:"05.08.2026",range:"69.69–105.00",rating:"48% Kauf / 45% Halten / 6% Verkauf (27 Anal.)",src:"aktien.guide"},price:75.2,chg:0,m3:-11.65,m6:-3.89,y1:1.12},
-  {name:"Alcon",ticker:"ALC",sector:"Medtech",risk:"mid",macro:"Pharma-Zoll, Franken-Stärke",an:{target:80.34,date:"22.07.2026",range:"50.50–99.75",rating:"79% Kauf / 11% Halten / 11% Verkauf (16 Anal.)",src:"aktien.guide"},price:52.68,chg:0,m3:-2.88,m6:-11.19,y1:-14.34},
-  {name:"Lonza",ticker:"LONN",sector:"Pharma-Zulieferer",risk:"mid",macro:"Pharma-Zoll indirekt (Kunden)",an:{target:668.1,date:"24.07.2026",range:"486.83–855.75",rating:"87% Kauf / 13% Halten (25 Anal.)",src:"aktien.guide"},price:576.2,chg:0,m3:0.31,m6:14.55,y1:3.41},
-  {name:"Givaudan",ticker:"GIVN",sector:"Spezialchemie",risk:"low",macro:"Franken-Stärke, China-Konkurrenz",an:{target:null,date:"Juni 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +1% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:3402,chg:0,m3:-3.79,m6:25.86,y1:5.33},
-  {name:"ABB",ticker:"ABBN",sector:"Industrie",risk:"mid",macro:"US-Zoll 12,5%, China-Konkurrenz",an:{target:80.07,date:"31.07.2026",range:"43.43–98.70",rating:"41% Kauf / 59% Halten (33 Anal.)",src:"aktien.guide"},price:82.58,chg:0,m3:-0.94,m6:27.2,y1:40.3},
-  {name:"UBS",ticker:"UBSG",sector:"Bank",risk:"high",macro:"Fed-Zinsentscheid, globale Bankrisiken",an:{target:39.53,date:"09.07.2026",range:"34.33–63.00",rating:"56% Kauf / 32% Halten / 12% Verkauf (22 Anal.)",src:"aktien.guide"},price:40.57,chg:0,m3:-2.62,m6:30.2,y1:24.18},
-  {name:"Zurich Insurance",ticker:"ZURN",sector:"Versicherung",risk:"mid",macro:"Zinsniveau, geopolitische Grossschäden",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +11% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:577,chg:0,m3:-5.93,m6:1.8,y1:0.45},
-  {name:"Swiss Re",ticker:"SREN",sector:"Rückversicherung",risk:"mid",macro:"Zinsniveau, Klima-/Kriegsrisiken",an:{target:122.4,date:"17.07.2026",range:"111.10–168.00",rating:"14% Kauf / 39% Halten / 46% Verkauf (20 Anal.)",src:"aktien.guide"},price:143.05,chg:0,m3:7.68,m6:8.13,y1:-5.73},
-  {name:"Swiss Life",ticker:"SLHN",sector:"Versicherung",risk:"mid",macro:"Zinsniveau",an:{target:867,date:"17.07.2026",range:"767.60–1064.70",rating:"14% Kauf / 32% Halten / 55% Verkauf (15 Anal.)",src:"aktien.guide"},price:899,chg:0,m3:-2.52,m6:1.86,y1:3.83},
-  {name:"Richemont",ticker:"CFR",sector:"Luxusgüter",risk:"high",macro:"Franken-Stärke, US-Zoll, China-Nachfrage",an:{target:211.42,date:"Aug. 2026",range:"163–240",rating:"14 Kauf / 5 Neutral / 1 Verkauf (20 Anal.)",src:"cash.ch/AWP"},price:174.85,chg:0,m3:-5.59,m6:24.45,y1:14.51},
-  {name:"Sika",ticker:"SIKA",sector:"Baustoffe",risk:"high",macro:"Franken-Stärke, China-Konkurrenz",an:{target:179.52,date:"21.07.2026",range:"151.50–237.30",rating:"64% Kauf / 32% Halten / 4% Verkauf (23 Anal.)",src:"aktien.guide"},price:175.5,chg:0,m3:2.66,m6:36.2,y1:-2.28},
-  {name:"Partners Group",ticker:"PGHN",sector:"Vermögensverwaltung",risk:"high",macro:"Globale Risikoaversion, Zinsniveau",an:{target:938.4,date:"24.07.2026",range:"767.60–1260.00",rating:"57% Kauf / 38% Halten / 5% Verkauf (16 Anal.)",src:"aktien.guide"},price:609.4,chg:0,m3:-9.88,m6:-28.09,y1:-42.37},
-  {name:"Logitech",ticker:"LOGN",sector:"Technologie",risk:"high",macro:"US-Zoll 12,5%, KI-Bewertungssorgen",an:{target:95.88,date:"24.07.2026",range:"71.83–120.75",rating:"61% Kauf / 22% Halten / 17% Verkauf (14 Anal.)",src:"aktien.guide"},price:85.04,chg:0.64,m3:9.25,m6:16.27,y1:-6.59},
-  {name:"Amrize",ticker:"AMRZ",sector:"Baustoffe",risk:"high",macro:"US-Baukonjunktur, Zinsniveau",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +35% (kein Einzelziel verfügbar, Kurs stark gefallen)",src:"aktien.guide"},price:31.18,chg:0,m3:-23.45,m6:-27.15,y1:-19.33},
-  {name:"Geberit",ticker:"GEBN",sector:"Sanitärtechnik",risk:"low",macro:"Franken-Stärke, EU-Baukonjunktur",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Verkauf, Ø-Potenzial ca. +3% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:536.2,chg:0.41,m3:0.9,m6:2.13,y1:-11.34},
-  {name:"Holcim",ticker:"HOLN",sector:"Baustoffe",risk:"mid",macro:"US-Zoll, China-Konkurrenz",an:{target:81.09,date:"28.07.2026",range:"62.62–97.65",rating:"64% Kauf / 36% Halten (25 Anal.)",src:"aktien.guide"},price:65.84,chg:0,m3:-13.37,m6:0.46,y1:1.29},
-  {name:"Galderma",ticker:"GALD",sector:"Dermatologie",risk:"mid",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:193.8,date:"29.07.2026",range:"152.26–273.00",rating:"83% Kauf / 17% Halten (18 Anal.)",src:"aktien.guide"},price:161.35,chg:0,m3:-8.61,m6:5.53,y1:13.47},
-  {name:"Sandoz",ticker:"SDZ",sector:"Generika",risk:"mid",macro:"Pharma-Zoll, oft ausgenommen (Generika)",an:{target:71.4,date:"04.08.2026",range:"37.16–86.10",rating:"59% Kauf / 36% Halten / 5% Verkauf (18 Anal.)",src:"aktien.guide"},price:69.76,chg:0,m3:-0.29,m6:10.41,y1:44.67},
+  {name:"Roche",ticker:"ROG",sector:"Pharma",risk:"low",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:372,date:"Sommer 2026",range:"349–434.50",rating:"8 Kauf / 7 Halten / 1 Verkauf (16 Analysten)",src:"cash.ch"},price:351.4,chg:0.46,m3:4.93,m6:11.88,y1:21.8},
+  {name:"Novartis",ticker:"NOVN",sector:"Pharma",risk:"low",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:128.42,date:"31.07.2026",range:"95.95–150.69",rating:"50% Kauf / 41% Halten / 9% Verkauf (27 Anal.)",src:"aktien.guide"},price:117.9,chg:0.61,m3:-6.35,m6:-2.71,y1:12.11},
+  {name:"Nestlé",ticker:"NESN",sector:"Nahrungsmittel",risk:"mid",note:"Sondersituation: Russland-Geschäft",macro:"Russland-Exit, Franken-Stärke",an:{target:86.7,date:"05.08.2026",range:"69.69–105.00",rating:"48% Kauf / 45% Halten / 6% Verkauf (27 Anal.)",src:"aktien.guide"},price:75.37,chg:0.23,m3:-10.39,m6:-4.29,y1:1.18},
+  {name:"Alcon",ticker:"ALC",sector:"Medtech",risk:"mid",macro:"Pharma-Zoll, Franken-Stärke",an:{target:80.34,date:"22.07.2026",range:"50.50–99.75",rating:"79% Kauf / 11% Halten / 11% Verkauf (16 Anal.)",src:"aktien.guide"},price:52.86,chg:0.34,m3:-2.11,m6:-13.63,y1:-12.77},
+  {name:"Lonza",ticker:"LONN",sector:"Pharma-Zulieferer",risk:"mid",macro:"Pharma-Zoll indirekt (Kunden)",an:{target:668.1,date:"24.07.2026",range:"486.83–855.75",rating:"87% Kauf / 13% Halten (25 Anal.)",src:"aktien.guide"},price:573.8,chg:-0.42,m3:0.14,m6:12.82,y1:6.22},
+  {name:"Givaudan",ticker:"GIVN",sector:"Spezialchemie",risk:"low",macro:"Franken-Stärke, China-Konkurrenz",an:{target:null,date:"Juni 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +1% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:3411,chg:0.26,m3:-0.5,m6:22,y1:3.36},
+  {name:"ABB",ticker:"ABBN",sector:"Industrie",risk:"mid",macro:"US-Zoll 12,5%, China-Konkurrenz",an:{target:80.07,date:"31.07.2026",range:"43.43–98.70",rating:"41% Kauf / 59% Halten (33 Anal.)",src:"aktien.guide"},price:81.42,chg:-1.4,m3:-1.14,m6:16.15,y1:39.27},
+  {name:"UBS",ticker:"UBSG",sector:"Bank",risk:"high",macro:"Fed-Zinsentscheid, globale Bankrisiken",an:{target:39.53,date:"09.07.2026",range:"34.33–63.00",rating:"56% Kauf / 32% Halten / 12% Verkauf (22 Anal.)",src:"aktien.guide"},price:40.31,chg:-0.64,m3:-1.92,m6:24.41,y1:24.03},
+  {name:"Zurich Insurance",ticker:"ZURN",sector:"Versicherung",risk:"mid",macro:"Zinsniveau, geopolitische Grossschäden",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +11% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:575.2,chg:-0.31,m3:-5.83,m6:0.74,y1:0.07},
+  {name:"Swiss Re",ticker:"SREN",sector:"Rückversicherung",risk:"mid",macro:"Zinsniveau, Klima-/Kriegsrisiken",an:{target:122.4,date:"17.07.2026",range:"111.10–168.00",rating:"14% Kauf / 39% Halten / 46% Verkauf (20 Anal.)",src:"aktien.guide"},price:142.95,chg:-0.07,m3:7.76,m6:7.81,y1:-5.46},
+  {name:"Swiss Life",ticker:"SLHN",sector:"Versicherung",risk:"mid",macro:"Zinsniveau",an:{target:867,date:"17.07.2026",range:"767.60–1064.70",rating:"14% Kauf / 32% Halten / 55% Verkauf (15 Anal.)",src:"aktien.guide"},price:895.6,chg:-0.38,m3:-2.42,m6:0.34,y1:3.73},
+  {name:"Richemont",ticker:"CFR",sector:"Luxusgüter",risk:"high",macro:"Franken-Stärke, US-Zoll, China-Nachfrage",an:{target:211.42,date:"Aug. 2026",range:"163–240",rating:"14 Kauf / 5 Neutral / 1 Verkauf (20 Anal.)",src:"cash.ch/AWP"},price:174.1,chg:-0.43,m3:-3.73,m6:14.84,y1:12.25},
+  {name:"Sika",ticker:"SIKA",sector:"Baustoffe",risk:"high",macro:"Franken-Stärke, China-Konkurrenz",an:{target:179.52,date:"21.07.2026",range:"151.50–237.30",rating:"64% Kauf / 32% Halten / 4% Verkauf (23 Anal.)",src:"aktien.guide"},price:176.05,chg:0.31,m3:8.51,m6:29.16,y1:-1.92},
+  {name:"Partners Group",ticker:"PGHN",sector:"Vermögensverwaltung",risk:"high",macro:"Globale Risikoaversion, Zinsniveau",an:{target:938.4,date:"24.07.2026",range:"767.60–1260.00",rating:"57% Kauf / 38% Halten / 5% Verkauf (16 Anal.)",src:"aktien.guide"},price:610,chg:0.1,m3:-8.05,m6:-29.69,y1:-41.37},
+  {name:"Logitech",ticker:"LOGN",sector:"Technologie",risk:"high",macro:"US-Zoll 12,5%, KI-Bewertungssorgen",an:{target:95.88,date:"24.07.2026",range:"71.83–120.75",rating:"61% Kauf / 22% Halten / 17% Verkauf (14 Anal.)",src:"aktien.guide"},price:84.64,chg:-0.47,m3:8.46,m6:13.4,y1:-5.81},
+  {name:"Amrize",ticker:"AMRZ",sector:"Baustoffe",risk:"high",macro:"US-Baukonjunktur, Zinsniveau",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Kauf, Ø-Potenzial ca. +35% (kein Einzelziel verfügbar, Kurs stark gefallen)",src:"aktien.guide"},price:31,chg:-0.58,m3:-22.64,m6:-31.13,y1:-17.84},
+  {name:"Geberit",ticker:"GEBN",sector:"Sanitärtechnik",risk:"low",macro:"Franken-Stärke, EU-Baukonjunktur",an:{target:null,date:"Sommer 2026",range:null,rating:"mehrheitlich Verkauf, Ø-Potenzial ca. +3% (kein Einzelziel verfügbar)",src:"aktien.guide"},price:533.8,chg:-0.45,m3:3.93,m6:-2.8,y1:-11.77},
+  {name:"Holcim",ticker:"HOLN",sector:"Baustoffe",risk:"mid",macro:"US-Zoll, China-Konkurrenz",an:{target:81.09,date:"28.07.2026",range:"62.62–97.65",rating:"64% Kauf / 36% Halten (25 Anal.)",src:"aktien.guide"},price:65.36,chg:-0.73,m3:-10.44,m6:-6.6,y1:0.62},
+  {name:"Galderma",ticker:"GALD",sector:"Dermatologie",risk:"mid",macro:"Pharma-Zoll bis 15% (Ausnahmen)",an:{target:193.8,date:"29.07.2026",range:"152.26–273.00",rating:"83% Kauf / 17% Halten (18 Anal.)",src:"aktien.guide"},price:161.05,chg:-0.19,m3:-8,m6:2.84,y1:10.23},
+  {name:"Sandoz",ticker:"SDZ",sector:"Generika",risk:"mid",macro:"Pharma-Zoll, oft ausgenommen (Generika)",an:{target:71.4,date:"04.08.2026",range:"37.16–86.10",rating:"59% Kauf / 36% Halten / 5% Verkauf (18 Anal.)",src:"aktien.guide"},price:69.82,chg:0.09,m3:0.9,m6:6.89,y1:46.99},
 ];
 
 const riskLabel = {low:"Tief", mid:"Mittel", high:"Hoch"};
