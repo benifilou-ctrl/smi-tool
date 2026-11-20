@@ -1,22 +1,7 @@
 {
- "stand": "2026-11-10",
- "quelle": "Erstbefüllung aus Workflow-Code 10.11.2026",
+ "stand": "2026-11-20",
+ "quelle": "Indexwechsel automatisch nachgeführt am 20.11.2026",
  "titel": [
-  {
-   "ticker": "ROG",
-   "symbol": "SWX:ROP",
-   "name": "Roche",
-   "sector": "Pharma",
-   "risk": "low",
-   "macro": "Pharma-Zoll bis 15% (Ausnahmen)",
-   "an": {
-    "target": 378.56,
-    "date": "28.10.2026",
-    "range": "250.00–500.00",
-    "rating": "5 Kauf / 3 Halten / 1 Verkauf (9 Analysten)",
-    "src": "finanzen.net"
-   }
-  },
   {
    "ticker": "NOVN",
    "symbol": "SWX:NOVN",
@@ -302,6 +287,15 @@
     "rating": "8 Kauf / 6 Halten / 1 Verkauf (15 Analysten)",
     "src": "cash.ch"
    }
+  },
+  {
+   "ticker": "ROP",
+   "symbol": "SWX:ROP",
+   "name": "Roche",
+   "sector": "Pharma",
+   "risk": "low",
+   "macro": "FDA-Zulassungen, Patentabläufe, Frankenkurs, Gesundheitspolitik",
+   "an": null
   }
  ],
  "extra": [
@@ -322,5 +316,16 @@
   "aktualisiert": "2026-11-10",
   "gueltig": 20,
   "fehler": []
- }
+ },
+ "wechsel": [
+  {
+   "datum": "20.11.2026",
+   "neu": [
+    "ROP"
+   ],
+   "weg": [
+    "ROG"
+   ]
+  }
+ ]
 }
