@@ -10,11 +10,11 @@
    "risk": "low",
    "macro": "Pharma-Zoll bis 15% (Ausnahmen)",
    "an": {
-    "target": 122.56,
-    "date": "29.10.2026",
-    "range": "110.00–145.00",
-    "rating": "1 Kauf / 14 Halten / 1 Verkauf (16 Analysten)",
-    "src": "finanzen.ch"
+    "target": 124.8,
+    "date": "18.11.2026",
+    "range": "95.00–150.00",
+    "rating": "6 Kauf / 13 Halten / 2 Verkauf (21 Analysten)",
+    "src": "cash.ch"
    }
   },
   {
@@ -26,11 +26,11 @@
    "note": "Sondersituation: Russland-Geschäft",
    "macro": "Russland-Exit, Franken-Stärke",
    "an": {
-    "target": 89.04,
-    "date": "02.11.2026",
-    "range": "72.00–100.00",
-    "rating": "Verteilung nicht angegeben",
-    "src": "marketscreener.com"
+    "target": 89.35,
+    "date": "17.11.2026",
+    "range": "76.00–100.00",
+    "rating": "8 Kauf / 11 Halten / 1 Verkauf (20 Analysten)",
+    "src": "cash.ch"
    }
   },
   {
@@ -41,10 +41,10 @@
    "risk": "mid",
    "macro": "Pharma-Zoll, Franken-Stärke",
    "an": {
-    "target": 76.17,
-    "date": "09.11.2026",
+    "target": 75.78,
+    "date": "06.11.2026",
     "range": "50.00–95.00",
-    "rating": "14 Kauf / 1 Halten / 1 Verkauf (16 Analysten)",
+    "rating": "14 Kauf / 1 Neutral / 1 Verkauf (16 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -56,8 +56,8 @@
    "risk": "mid",
    "macro": "Pharma-Zoll indirekt (Kunden)",
    "an": {
-    "target": 700.76,
-    "date": "10.11.2026",
+    "target": 712.82,
+    "date": "20.11.2026",
     "range": "590.00–887.00",
     "rating": "18 Kauf / 1 Halten / 0 Verkauf (19 Analysten)",
     "src": "cash.ch"
@@ -71,11 +71,11 @@
    "risk": "low",
    "macro": "Franken-Stärke, China-Konkurrenz",
    "an": {
-    "target": 3367.14,
-    "date": "20.10.2026",
-    "range": "2886.00–4100.00",
-    "rating": "5 Kauf / 3 Halten / 6 Verkauf (14 Analysten)",
-    "src": "finanzen.ch"
+    "target": 3639.67,
+    "date": "23.10.2026",
+    "range": "2900.00–4500.00",
+    "rating": "7 Kauf / 9 Neutral / 2 Verkauf (18 Analysten)",
+    "src": "cash.ch"
    }
   },
   {
@@ -86,10 +86,10 @@
    "risk": "mid",
    "macro": "US-Zoll 12,5%, China-Konkurrenz",
    "an": {
-    "target": 81.57,
-    "date": "10.11.2026",
+    "target": 82.6,
+    "date": "19.11.2026",
     "range": "57.00–95.00",
-    "rating": "3 Kauf / 18 Halten / 1 Verkauf (22 Analysten)",
+    "rating": "14 Kauf / 23 Halten / 2 Verkauf (39 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -101,8 +101,8 @@
    "risk": "high",
    "macro": "Fed-Zinsentscheid, globale Bankrisiken",
    "an": {
-    "target": 44.95,
-    "date": "05.11.2026",
+    "target": 45.45,
+    "date": "18.11.2026",
     "range": "38.00–60.00",
     "rating": "7 Kauf / 8 Halten / 2 Verkauf (17 Analysten)",
     "src": "cash.ch"
@@ -116,10 +116,10 @@
    "risk": "mid",
    "macro": "Zinsniveau, geopolitische Grossschäden",
    "an": {
-    "target": 607.69,
-    "date": "10.11.2026",
-    "range": "500.00–902.00",
-    "rating": "5 Kauf / 9 Halten / 5 Verkauf (20 Analysten)",
+    "target": 618.01,
+    "date": "13.11.2026",
+    "range": "525.00–902.00",
+    "rating": "5 Kauf / 9 Neutral / 5 Verkauf (20 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -131,8 +131,8 @@
    "risk": "mid",
    "macro": "Zinsniveau, Klima-/Kriegsrisiken",
    "an": {
-    "target": 136.16,
-    "date": "06.11.2026",
+    "target": 136,
+    "date": "09.11.2026",
     "range": "110.00–179.00",
     "rating": "3 Kauf / 7 Halten / 10 Verkauf (20 Analysten)",
     "src": "cash.ch"
@@ -146,10 +146,10 @@
    "risk": "mid",
    "macro": "Zinsniveau",
    "an": {
-    "target": 896,
-    "date": "28.10.2026",
-    "range": "765.00–1073.00",
-    "rating": "2 Kauf / 7 Halten / 3 Verkauf (12 Analysten)",
+    "target": 891,
+    "date": "17.11.2026",
+    "range": "775.00–1125.00",
+    "rating": "1 Kauf / 8 Halten / 6 Verkauf (15 Analysten, Bloomberg-Daten)",
     "src": "cash.ch"
    }
   },
@@ -161,11 +161,11 @@
    "risk": "high",
    "macro": "Franken-Stärke, US-Zoll, China-Nachfrage",
    "an": {
-    "target": 206.43,
-    "date": "10.11.2026",
-    "range": "170.00–225.00",
-    "rating": "6 Kauf / 1 Halten / 0 Verkauf (7 Analysten)",
-    "src": "finanzen.ch"
+    "target": 213.11,
+    "date": "20.11.2026",
+    "range": "163.00–240.00",
+    "rating": "16 Kauf / 3 Halten / 1 Verkauf (20 Analysten)",
+    "src": "cash.ch"
    }
   },
   {
@@ -176,11 +176,11 @@
    "risk": "high",
    "macro": "Franken-Stärke, China-Konkurrenz",
    "an": {
-    "target": 206.55,
-    "date": "10.11.2026",
-    "range": "151.50–244.65",
-    "rating": "19 Kauf / 9 Halten / 1 Verkauf (29 Analysten)",
-    "src": "aktien.guide"
+    "target": 207,
+    "date": "12.11.2026",
+    "range": "159.00–245.00",
+    "rating": "11 Kauf / 6 Halten / 1 Verkauf (18 Analysten)",
+    "src": "investing.com"
    }
   },
   {
@@ -191,10 +191,10 @@
    "risk": "high",
    "macro": "Globale Risikoaversion, Zinsniveau",
    "an": {
-    "target": 839,
-    "date": "03.11.2026",
-    "range": "605.00–1125.00",
-    "rating": "7 Kauf / 8 Halten / 0 Verkauf (15 Analysten)",
+    "target": 743.94,
+    "date": "20.11.2026",
+    "range": "550.00–980.00",
+    "rating": "7 Kauf / 9 Halten / 3 Verkauf (19 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -206,10 +206,10 @@
    "risk": "high",
    "macro": "US-Zoll 12,5%, KI-Bewertungssorgen",
    "an": {
-    "target": 93.18,
-    "date": "10.11.2026",
+    "target": 91,
+    "date": "13.11.2026",
     "range": "70.00–115.00",
-    "rating": "5 Kauf / 5 Neutral / 1 Verkauf (11 Analysten)",
+    "rating": "4 Kauf / 5 Halten / 1 Verkauf (10 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -221,10 +221,10 @@
    "risk": "high",
    "macro": "US-Baukonjunktur, Zinsniveau",
    "an": {
-    "target": 42.01,
-    "date": "10.11.2026",
-    "range": "30.60–49.00",
-    "rating": "5 Kauf / 5 Neutral / 1 Verkauf (11 Analysten)",
+    "target": 40.01,
+    "date": "13.11.2026",
+    "range": "29.13–48.50",
+    "rating": "5 Kauf / 5 Halten / 1 Verkauf (11 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -236,10 +236,10 @@
    "risk": "low",
    "macro": "Franken-Stärke, EU-Baukonjunktur",
    "an": {
-    "target": 595.94,
-    "date": "10.11.2026",
+    "target": 595.06,
+    "date": "03.11.2026",
     "range": "465.00–712.00",
-    "rating": "5 Kauf / 9 Halten / 3 Verkauf (17 Analysten)",
+    "rating": "9 Kaufen / 5 Halten / 3 Verkaufen (17 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -251,10 +251,10 @@
    "risk": "mid",
    "macro": "US-Zoll, China-Konkurrenz",
    "an": {
-    "target": 83,
-    "date": "06.11.2026",
+    "target": 84.02,
+    "date": "13.11.2026",
     "range": "70.00–94.00",
-    "rating": "15 Kauf / 5 Halten / 0 Verkauf (20 Analysten)",
+    "rating": "16 Kauf / 4 Neutral / 0 Verkauf (20 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -266,11 +266,11 @@
    "risk": "mid",
    "macro": "Pharma-Zoll bis 15% (Ausnahmen)",
    "an": {
-    "target": 204.3,
-    "date": "10.11.2026",
-    "range": "135.93–266.74",
-    "rating": "14 Kauf / 2 Halten / 1 Verkauf (17 Analysten)",
-    "src": "investing.com"
+    "target": 209,
+    "date": "20.11.2026",
+    "range": "175.00–230.00",
+    "rating": "15 Kauf / 2 Halten / 0 Verkauf (17 Analysten)",
+    "src": "cash.ch"
    }
   },
   {
@@ -282,9 +282,9 @@
    "macro": "Pharma-Zoll, oft ausgenommen (Generika)",
    "an": {
     "target": 79.07,
-    "date": "10.11.2026",
+    "date": "20.11.2026",
     "range": "60.00–100.00",
-    "rating": "8 Kauf / 6 Halten / 1 Verkauf (15 Analysten)",
+    "rating": "7 Kauf / 7 Neutral / 1 Verkauf (15 Analysten)",
     "src": "cash.ch"
    }
   },
@@ -295,7 +295,13 @@
    "sector": "Pharma",
    "risk": "low",
    "macro": "FDA-Zulassungen, Patentabläufe, Frankenkurs, Gesundheitspolitik",
-   "an": null
+   "an": {
+    "target": 402.26,
+    "date": "13.11.2026",
+    "range": "250.00–500.00",
+    "rating": "11 Kauf / 7 Neutral / 1 Verkauf (19 Analysten)",
+    "src": "cash.ch"
+   }
   }
  ],
  "extra": [
@@ -313,7 +319,7 @@
   }
  ],
  "kursziele": {
-  "aktualisiert": "2026-11-10",
+  "aktualisiert": "2026-11-20",
   "gueltig": 20,
   "fehler": []
  },
